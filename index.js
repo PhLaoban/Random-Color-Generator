@@ -4,10 +4,6 @@ import randomColor from 'randomcolor';
 
 const randomCol = '#' + Math.floor(Math.random() * 16777215).toString(16);
 
-function randomColor1() {
-  console.log(chalk.hex(randomCol).bold(row));
-}
-
 const row = `##############################\n##############################\n##############################\n#####                    #####\n#####      ${randomCol}       #####\n#####                    #####\n##############################\n##############################\n##############################`;
 
 if (process.argv < 3) {
