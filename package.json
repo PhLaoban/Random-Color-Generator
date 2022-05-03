@@ -1,8 +1,8 @@
 {
   "name": "Random-Color-Generator",
   "version": "1.0.0",
-  "main": "index.js",
   "type": "module",
+  "main": "index.js",
   "repository": "https://github.com/PhLaoban/Random-Color-Generator.git",
   "author": "Philipp Anton <philippanton140396@gmail.com>",
   "license": "MIT",
@@ -40,5 +40,12 @@
     "eslint-plugin-react": "7.29.4",
     "eslint-plugin-react-hooks": "4.5.0",
     "@typescript-eslint/utils": "5.22.0"
+  },
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "color": "^4.2.3",
+    "complete-randomer": "^1.9.1",
+    "random": "^3.0.6",
+    "randomcolor": "^0.6.2"
   }
 }
